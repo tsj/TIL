@@ -1,11 +1,11 @@
 # case-sensitive
 
-HTTP-version is case-sensitive. [RFC 7230](https://tools.ietf.org/html/rfc7230#page-14)
+HTTP-version is case-sensitive. [[RFC7230]](https://tools.ietf.org/html/rfc7230#page-14)
 ```
 HTTP/1.1
 ```
 
-The request method is case-sensitive. [RFC7230](https://tools.ietf.org/html/rfc7230#page-21) [RFC 7231](https://tools.ietf.org/html/rfc7231#section-4)
+The request method is case-sensitive. [[RFC7230]](https://tools.ietf.org/html/rfc7230#page-21) [[RFC 7231]](https://tools.ietf.org/html/rfc7231#section-4)
 ```
 GET
 HEAD
@@ -38,3 +38,9 @@ Test
 
 * Connection #0 to host www.google.com left intact
 ```
+
+# case-insensitive
+
+Each header field consists of a case-insensitive field name followed by a colon (":"), optional leading whitespace, the field value, and optional trailing whitespace.
+[[RFC7230]](https://tools.ietf.org/html/rfc7230#section-3.2)
+
